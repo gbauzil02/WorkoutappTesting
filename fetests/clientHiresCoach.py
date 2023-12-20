@@ -24,7 +24,7 @@ passWord = (driver.find_element("xpath",'/html/body/div[1]/div/div/div/form/div[
 passWord.send_keys('computer')
 #Login Button
 (driver.find_element("xpath",'/html/body/div[1]/div/div/div/form/button').click())
-time.sleep(1)
+time.sleep(2)
 
 
 #Hire New Coach Page
